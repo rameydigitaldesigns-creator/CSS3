@@ -1,0 +1,35 @@
+   /* This is the section for overall page styles */
+   /* 1. GLOBAL RESET: Removes unpredictable browser spacing */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. ROOT VARIABLES: Store colors and fonts for easy management */
+:root {
+    --primary-color: #0000ff;
+    --text-color: #333333;
+    --bg-color: #ffffff;
+    --main-font: 'Arial', sans-serif;
+}
+
+/* 3. BASE STYLES: Set default page presentation */
+body {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+}
+
+/* 4. TYPOGRAPHY: Scale heading elements uniformly */
+h1, h2, h3 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* 5. MEDIA DEFAULTS: Prevents large imagery from overflowing layout wrappers */
+img {
+    max-width: 100%;
+    display: block;
+}
