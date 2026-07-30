@@ -1,18 +1,28 @@
+
   /* This is where I am formatting the text and background color for my page */
   <style>
-        body {
+        <palette>
+  <color name="Baltic Blue" hex="22577a" r="34" g="87" b="122" />
+  <color name="Tropical Teal" hex="38a3a5" r="56" g="163" b="165" />
+  <color name="Emerald" hex="57cc99" r="87" g="204" b="153" />
+  <color name="Light Green" hex="80ed99" r="128" g="237" b="153" />
+  <color name="Tea Green" hex="c7f9cc" r="199" g="249" b="204" />
+</palette>
+
+body {
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #ffffff;
         }
         h1 {
-            color: #0000FF;
+            color:"22577a";
         }
         h2 {
-            color: #0000FF;
+            color:"38a3a5";
         }
         h3 {
-            color: #0000FF;
+            color:"57cc99";
         }
 
     </style>
+
