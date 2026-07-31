@@ -1,6 +1,7 @@
 
   /* This is where I am formatting the text and background color for my page */
   <style>
+ /* Colors to use*/
    :root {
   --baltic-blue: #22577a;
   --tropical-teal: #38a3a5;
@@ -10,11 +11,9 @@
 }
 
 body {
-            font-family: Arial, sans-serif;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
             margin: 20px;
-            background-color: #c7f9ccd3;
-            .text-outline {
-  /* Syntax: thickness color */
+            background-color: #c7f9cc30;
   
         }
         h1 {
