@@ -1,23 +1,23 @@
 
   /* This is where I am formatting the text and background color for my page */
-  <style>
+ 
  /* Colors to use*/
    :root {
-   background-color: #c7f9cc30;
+   background-color: #c7f9cc30;font-family: 'Roboto', sans-serif; margin: 20px;
   --baltic-blue: #22577a;
   --tropical-teal: #38a3a5;
   --emerald: #57cc99;
   --light-green: #80ed99;
   --tea-green: #c7f9cc;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-            margin: 20px;
+
 } 
 
 body {
   
         }
         h1 {
-            color: var(--baltic-blue);
+            color: var(--baltic-blue); 
+            -webkit-text-stroke: .5px #000000; 
         }
         h2 {
             color: var(--tropical-teal);
@@ -30,5 +30,8 @@ body {
   p {
             display:block; size: 200px;
         }
-    </style>
+block1 {text-align: center;
+       
+        }
+  
 
