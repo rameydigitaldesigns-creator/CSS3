@@ -2,7 +2,7 @@
   /* This is where I am formatting the text and background color for my page */
   <style>
  /* Colors to use*/
-   .root {
+   :root {
    background-color: #c7f9cc30;
   --baltic-blue: #22577a;
   --tropical-teal: #38a3a5;
@@ -13,20 +13,21 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
             margin: 20px;
 } 
 
-.body {
+body {
   
         }
-        .h1 {color: var(--baltic-blue);
+        h1 {
+            color: var(--baltic-blue);
         }
-        .h2 {
+        h2 {
             color: var(--tropical-teal);
             -webkit-text-stroke: .5px #000000; 
         }
-        .h3 {
+        h3 {
             color: var(--emerald);
             -webkit-text-stroke: .5px #000000; 
         }
-  .p {
+  p {
             display:block; size: 200px;
         }
     </style>
