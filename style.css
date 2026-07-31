@@ -12,16 +12,19 @@
 body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #ffffff;
+            background-color: #c7f9ccd3;
+            .text-outline {
+  /* Syntax: thickness color */
+  
         }
         h1 {
-            color:#22577a;
+            color:#22577a;-webkit-text-stroke: .5px #000000; 
         }
         h2 {
-            color:#38a3a5;
+            color:#38a3a5;-webkit-text-stroke: .5px #000000; 
         }
         h3 {
-            color:#57cc99;
+            color:#57cc99;-webkit-text-stroke: .5px #000000; 
         }
 
     </style>
