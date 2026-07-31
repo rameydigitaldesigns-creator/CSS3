@@ -27,11 +27,14 @@ body {
             color: var(--emerald);
             -webkit-text-stroke: .5px #000000; 
         }
-  p {
+   p {
             display:block; size: 200px;
         }
-block1 {text-align: center;
-       
+    block1 {text-align: center;
+    }
+    block2 {text-align: left;
+    }
+    block3 {text-align: left;   
         }
   
 
