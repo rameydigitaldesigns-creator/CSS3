@@ -11,7 +11,11 @@
   --tea-green: #c7f9cc;
 
 } 
-
+main{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content:space-around;
+}
 body {
   
         }
