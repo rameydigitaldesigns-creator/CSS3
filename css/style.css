@@ -1,7 +1,7 @@
 
   /* This is where I am formatting the text and background color for my page */
  
- /* Colors to use*/
+ /* Colors to use
  :root {
    background-color: #c7f9cc30;font-family: 'Roboto', sans-serif; margin: 20px;
   --baltic-blue: #22577a;
@@ -10,7 +10,7 @@
   --light-green: #80ed99;
   --tea-green: #c7f9cc;
 
-} 
+} */
 .navigation {
     display: grid;
     grid-template-columns: 1fr 1fr;
