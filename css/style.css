@@ -2,7 +2,7 @@
   /* This is where I am formatting the text and background color for my page */
  
  /* Colors to use*/
-   :root {
+ :root {
    background-color: #c7f9cc30;font-family: 'Roboto', sans-serif; margin: 20px;
   --baltic-blue: #22577a;
   --tropical-teal: #38a3a5;
@@ -11,10 +11,50 @@
   --tea-green: #c7f9cc;
 
 } 
-main{
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 1em;
+}
+nav a {
+    background-color: var(--tea-green);
+    text-decoration: none;
+    padding: 1em;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+nav a:hover {
+    background-color: var(--baltic-blue);
+    color: var(--light-green);
+   
+}
+main {
     display: grid;
     grid-template-columns: 100%;
     justify-content:space-around;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 20px;
+}
+.grid-item {
+    padding: 2em;
+   /* background-color: var(--light-green); */
+    background-color: rgba(128, 237, 153, 0.5);
+    border: 2px solid var(--baltic-blue);
+    color: var(--baltic-blue);
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    img {
+        max-width: 100%;
+        height: auto;
+        border: 8px solid var(--baltic-blue);
+    }
 }
 body {
   
@@ -22,23 +62,27 @@ body {
         h1 {
             color: var(--baltic-blue); 
             -webkit-text-stroke: .5px #000000; 
+            text-align: center;
         }
         h2 {
             color: var(--tropical-teal);
             -webkit-text-stroke: .5px #000000; 
+            text-align: center;
         }
         h3 {
             color: var(--emerald);
             -webkit-text-stroke: .5px #000000; 
+            text-align: left;
         }
    p {
             display:block; size: 200px;
         }
-    block1 {text-align: center;
-    }
-    block2 {text-align: left;
-    }
-    block3 {text-align: left;   
-        }
+
+footer {
+    background-color: var(--tea-green);
+    text-align: center;
+    padding: 1em;
+    border-radius: 8px;
+}
   
 
