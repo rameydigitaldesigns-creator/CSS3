@@ -20,7 +20,7 @@ Css
     justify-content: center;
     gap: 1em;
 }
-nav a {
+.nav a {
     background-color: var(--tea-green);
     text-decoration: none;
     padding: 1em;
@@ -28,14 +28,14 @@ nav a {
     border: 8px solid var(--baltic-blue);
     margin-bottom: 20px;
 }
-nav a:hover {
+.nav a:hover {
     background-color: var(--baltic-blue);
     color: var(--tea-green);
     border-radius: 8px;
     border: 8px solid var(--tea-green);
    
 }
-nav a.active {
+.nav a.active {
     background-color: var(--baltic-blue);
     color: var(--tea-green);
     border-radius: 8px;
