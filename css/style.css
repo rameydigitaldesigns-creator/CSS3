@@ -12,8 +12,8 @@
 .navigation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center: 30 30 30;
-    gap: 1em;
+    justify-content:center;
+    grid-template-rows: auto;
 }
 .nav a.active {
     background-color: var(--baltic-blue);
@@ -34,7 +34,6 @@
     color: var(--tea-green);
     border-radius: 8px;
     border: 8px solid var(--tea-green);
-   
 }
 
 .main-content {
