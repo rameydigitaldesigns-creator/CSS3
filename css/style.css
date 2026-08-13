@@ -15,12 +15,6 @@
     justify-content:center;
     grid-template-rows: auto;
 }
-.nav a.active {
-    background-color: var(--baltic-blue);
-    color: var(--tea-green);
-    border-radius: 8px;
-    border: 8px solid var(--tea-green);
-}
 .nav a {
     background-color: var(--tea-green);
     text-decoration: none;
@@ -29,6 +23,13 @@
     border: 8px solid var(--baltic-blue);
     margin-bottom: 20px;
 }
+.nav a.active {
+    background-color: var(--baltic-blue);
+    color: var(--tea-green);
+    border-radius: 8px;
+    border: 8px solid var(--tea-green);
+}
+
 .nav a:hover {
     background-color: var(--baltic-blue);
     color: var(--tea-green);
