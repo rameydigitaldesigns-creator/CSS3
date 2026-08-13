@@ -107,12 +107,8 @@ main {
 
 }
 .card-center div {
-  background-color: var(--pink);
   color: var(--dark-grape);
-  width: 50%;
-  padding: 10px; 
-  margin: 10px;
-  padding: 10px;
+  width: 75%;
   text-align: center;  
   font-size: 30px;
 
