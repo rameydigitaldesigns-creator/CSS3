@@ -5,14 +5,15 @@
     --tropical-teal: #38a3a5;
     --emerald: #57cc99;
     --light-green: #80ed99;
-    --tea-green: #c7f9cc; 
+    --tea-green: #c7f9cc;
+    --dark-grape: #440865f7; 
     --grape: #9747c2ab;
     --pink: #e7b5e7ab;
     }
 
 .navigation {
     display: grid;
-    grid-column: 1 / -1;
+  grid-column: 1 / span 4;
     padding: 20px;
     text-align:center;
 }
@@ -34,13 +35,13 @@ nav a:hover {
     background-color: var(--baltic-blue);
     color: var(--tea-green);
     border-radius: 8px;
-    border: 8px solid var(--grape);
+    border: 8px solid var(--tea-green);
 }
 nav .active {
     background-color: var(--baltic-blue);
     color: var(--pink);
     border-radius: 8px;
-    border: 8px solid var(--grape);
+    border: 8px solid var(--baltic-blue);
 }
 
 
@@ -87,12 +88,12 @@ body {
 
     
         h1 {
-            color: var(--baltic-blue);
+            color: var(--grape);
             -webkit-text-stroke: .5px #000000;   
             display:contents
         }
         h2 {
-            color: var(--purple);
+            color: var(--dark-grape);
             -webkit-text-stroke: .5px #000000;
             text-align: center;
         }
