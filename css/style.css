@@ -9,12 +9,12 @@
 
     }
 
-.nav {
+.navigation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-content:top;
 }
-.nav a {
+nav a {
     background-color: var(--tea-green);
     text-decoration: none;
     padding: 1em;
@@ -22,14 +22,14 @@
     border: 8px solid var(--baltic-blue);
     margin-bottom: 20px;
 }
-.nav a.active {
+nav .active {
     background-color: var(--baltic-blue);
     color: var(--tea-green);
     border-radius: 8px;
     border: 8px solid var(--tea-green);
 }
 
-.nav a:hover {
+nav a:hover {
     background-color: var(--baltic-blue);
     color: var(--tea-green);
     border-radius: 8px;
@@ -97,6 +97,8 @@ body {
         p {
             display:block;
             text-align: center;
+            text-wrap: inherit;
+            font-style: normal;
         }
         li{
             display: block;
@@ -104,6 +106,10 @@ body {
             flex-direction: column;
             text-align: center;
         }
+.eats {
+    display: flex;
+
+}
 footer {
     background-color: var(--tea-green);
     text-align: center;
