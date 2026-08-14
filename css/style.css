@@ -108,11 +108,21 @@ main {
 
 
 }
-.navigation{
-      display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+.navigation-flex {
+  display: flex;                  /* Activates flexbox layout */
+  flex-direction: row;            /* row (horizontal) | column (vertical) */
+  flex-wrap: nowrap;              /* nowrap (single line) | wrap (multi-line) */
+  justify-content: space-between;        /* Aligns items on main-axis: flex-start | flex-end | space-between | space-around */
+  align-items: center;            /* Aligns items on cross-axis: stretch | flex-start | flex-end | baseline */
+  gap: 15px;  
 }
+.navigation-flex-item{
+  /* The shorthand property for: flex-grow | flex-shrink | flex-basis */
+  flex: 1 1 auto;                 /* flex: 1; makes all items equal size */
+  align-self: auto;               /* Overrides parent align-items for this specific item */
+  order: 1;                       /* Controls the visual stack order of the item */
+}
+
 
 .button {
     background-color: var(--baltic-blue);
@@ -130,11 +140,11 @@ main {
   box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
 }
 .button2:hover {
-  background-color: var(--light-green);
+  background-color: var(--tropical-teal);
   box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
 }
 .button3:hover {
-  background-color: var(--tropical-teal);
+  background-color: var(--grape);
   box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
 }
 
@@ -156,7 +166,7 @@ main {
   color: var(--grape);       
 }
 .button3 h2 {
-  color: var(--tea-green);       
+  color: var(--tropical-teal);       
 
 }
 .button3:hover h2 {
