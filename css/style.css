@@ -107,11 +107,49 @@ main {
 
 }
 .card-center div {
-  color: var(--dark-grape);
-  width: 75%;
-  text-align: center;  
-  font-size: 30px;
+    color: var(--dark-grape);
+    width: 75%;
+    text-align: center;  
+    font-size: 30px;
 
+
+}
+.button {
+    background-color: var(--baltic-blue);
+    border: 2ps solid var(--emerald);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    width:30%;
+    cursor: pointer;
+}
+.button1:hover {
+  background-color: var(--dark-grape);
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+.button2:hover {
+  background-color: var(--light-green);
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+.button3:hover {
+  background-color: var(--tropical-teal);
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+.button1:hover h2 {
+  color: var(--tea-green);         /* Overrides text color */
+
+}
+.button2:hover h2 {
+  color: var(--grape);         /* Overrides text color */
+
+}
+.button3:hover h2 {
+  color: var(--pink);         /* Overrides text color */
 
 }
 
