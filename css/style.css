@@ -11,12 +11,6 @@
     --pink: #e7b5e7ab;
     }
 
-.navigation {
-    display: grid;
-  grid-column: 1 / span 4/ fr fr fr fr;
-    padding: 20px;
-    text-align:center;
-}
 nav a {
     background-color: var(--tea-green);
     text-decoration: none;
@@ -114,16 +108,20 @@ main {
 
 
 }
+.navigation{
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .button {
     background-color: var(--baltic-blue);
-    border-radius 15px 50px 30px 5px;
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     transition-duration: 0.4s;
-    width:30%;
+    width:25%;
     cursor: pointer;
 
 }
