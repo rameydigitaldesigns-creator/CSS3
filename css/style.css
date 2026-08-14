@@ -33,7 +33,7 @@ nav a:hover {
 }
 nav .active {
     background-color: var(--baltic-blue);
-    color: var(--pink);
+    color: var(--tea-green);
     border-radius: 8px;
     border: 8px solid var(--baltic-blue);
 }
@@ -53,28 +53,23 @@ main {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto;
   grid-gap: 5px;
-  padding: 10px;
+  padding: 5px;
 }
 
-.grid-container > div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
 .grid-item {
     padding: 2em;
     background-color: var(--tea-green);
-    border: 2px solid var(--baltic-blue);
-    color: var(--tropical-teal);
+    border: 1px solid var(--baltic-blue);
+    color: var(--dark-grape);
     text-align: center;
     border-radius: 8px;
     font-size: 1.25rem;
-}
+} 
 
-.item1 {
-  grid-column: 1 / span 4;
+.item {
+  grid-column-start: auto;
 }
 .card {
     display: flex;
@@ -109,18 +104,18 @@ main {
 
 }
 .navigation-flex {
-  display: flex;                  /* Activates flexbox layout */
-  flex-direction: row;            /* row (horizontal) | column (vertical) */
-  flex-wrap: nowrap;              /* nowrap (single line) | wrap (multi-line) */
-  justify-content: space-between;        /* Aligns items on main-axis: flex-start | flex-end | space-between | space-around */
-  align-items: center;            /* Aligns items on cross-axis: stretch | flex-start | flex-end | baseline */
+  display: flex;                  
+  flex-direction: row;            
+  flex-wrap: nowrap;             
+  justify-content: space-between;       
+  align-items: center;            
   gap: 15px;  
 }
 .navigation-flex-item{
-  /* The shorthand property for: flex-grow | flex-shrink | flex-basis */
-  flex: 1 1 auto;                 /* flex: 1; makes all items equal size */
-  align-self: auto;               /* Overrides parent align-items for this specific item */
-  order: 1;                       /* Controls the visual stack order of the item */
+
+  flex: 1 1 auto;                
+  align-self: auto;             
+  order: 1;                       
 }
 
 .button {
