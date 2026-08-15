@@ -192,7 +192,8 @@ body {
         h1 {
             color: var(--dark-grape);
             -webkit-text-stroke: .5px #000000;   
-            display:contents
+            display:contents;
+
         }
         h2 {
             color: var(--dark-grape);
