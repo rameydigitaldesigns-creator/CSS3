@@ -215,7 +215,8 @@ body {
             text-align: center;
         }
 .eats {
-    display: flex;
+    border-radius: 10%;
+   list-style: none;
 
 }
 footer {
